@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FIRST PROYECT</title>
+    <!--link rel="stylesheet" href=""-->
+     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> 
+</head>
+<body>
+    <!--Sintáxis: 1. H1 (título), h2 (subtítulo)… (con CSS se podrá ir  cambiando tamaños). 
+    2. P (párrafo).
+    3. Br/ (espaciado) 
+    4. Negrita con b (por estilo), strong (negrita y utilidad para filtrar info importante), span (con CSS se hace bold), 
+    5. I (itálica). 
+    6. Blockquote (para cita textual, corre el párrafo a la derecha), 
+    7. Cite (para citar al autor, aparece en itálica), 
+    8. Hr (añade una línea separadora).
+
+    ENLACES:
+    9. a (para poder colocar un enlace que mande a otro sitio en la misma pagina)
+    10. a target="_blank" ( para poder colocar un enlace que mande a otro sitio en otra pagina
+    11. <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> 
+    12. link rel="stylesheet" href=""
+    13. <script> src ="" </script> 
+
+    LISTAS:
+    14. ul (para lista desordenada). 
+    15. li (da los ítems) 
+    16. Metemos el a href dentro del li para vincularlo a links. Se puede poner otro ul dentro de un li (como una sub lista). 
+    17. Podemos user el ol en lugar del ul, para que tenga numeración de orden. 
+
+    IMAGENES
+    18. <img src="" width="" height=""> si se quiere colocarle un texto se hace con <img src="" alt="" width="" height=""> Si se quiere colocar un titulo se hace: <img src="" title="" width="" height="">
+    
+    TABLAS
+    19. Tr son filas y td son columnas
+    20. Para crear una tabla se hace asi: <table>
+        <tr>
+            <td></td>   
+        </tr>
+    </table>
+
+    FORMULARIOS
+    21. Para saber una opción: 
+    <input type="radio" name="gender" value="hombre"> Hombre<br>
+    <input type="radio" name="gender" value="mujer"> Mujer<br>
+    22. Para hacer un campo de texto es:
+    <input type="text" value="Write you name">
+
+    sin borrar el value es :
+    <input type="text" placeholder="Write your name"> 
+
+    para colocar el tamaño es: 
+    <input type="text" placeholder="Write your name" size=""> 
+
+    y para poder colocar limite de letras: 
+    <input type="text" placeholder="Write your name" maxlength="10">
+
+    METADATOS
+    23.-->
+ 
+    <center><h1>HELLO WORLD</h1></center> 
+    <BR />
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br /> Reprehenderit, officia fugiat dolorem blanditiis asperiores aspernatur nam perferendis earum dignissimos molestiae culpa similique id error expedita delectus, <b>impedit explicabo </b>  nisi reiciendis?</p>
+    <hr>
+    <a target="_blank" href ="https://www.youtube.com/">Ir a Youtube</a>
+    <br>
+    <a href="https://github.com/julian0545465">Ir a github</a>
+    <br>
+    <a href="mailto:jcvelasco249@misena.edu.co" title="Enviar correo a Julian Velasco">Enviar email</a>
+    <br>
+
+    <center><h2>SUBTITLE OF THE PROYECT</h2></center> 
+    <p> 
+        <cite>Julian Camilo Velasco Bonilla</cite>
+        <blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur consequatur facilis neque praesentium excepturi explicabo velit voluptates culpa officia incidunt ab expedita, eius minus in <i> perspiciatis </i> totam <strong> doloremque nostrum </strong> sunt? </blockquote>
+    </p>
+    <hr>
+    <center><h2>LISTAS</h2></center> 
+    <ul>
+        <li> <a target="_blank" href="https://www.youtube.com/">Youtube</a></li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <ul>
+            <li>Second list</li>
+        </ul>
+        <li>Item 4</li>
+        <li>Item 5</li>
+    </ul>
+
+    <h2>Lista</h2>
+    <ol>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <ul>
+            <Li>List number three</Li>
+        </ul>
+        <li>Item 3</li>
+        <li>Item 4</li>
+    </ol>
+
+    <HR> <center><H2>IMAGENES</H2></center> </HR>
+    <img src="https://tecnoautos.com/wp-content/uploads/2015/01/imagenes-bacanas-para-whatsapp.jpg" title="Hecho por Julian Velasco" width="500" height="300">
+    
+    <HR><center><h2>TABLAS</h2></center> </HR>
+    <table>
+        <tr>
+            <td>Element 1</td>
+            <td>Element 2</td>
+            <td>Element 3</td>
+        </tr>
+
+        <tr>
+            <td>Element 1</td>
+            <td>Element 2</td>
+            <td>Element 3</td>
+        </tr>
+
+        <tr>
+            <td>Element 1</td>
+            <td>Element 2</td>
+            <td>Element 3</td>
+        </tr>
+    </table>
+
+    <hR> <center> <h2>FORMULARIOS</h2> </center> </hR>
+    <center>
+    <form>
+        <input type="text" value="Write you name">
+        <input type="password">
+        <input type="email"> 
+        <br>
+        <input type="text" placeholder="Write your name" maxlength="10">
+
+        <br>
+        <input type="radio" name="gender" value="hombre"> Hombre<br>
+        <input type="radio" name="gender" value="mujer"> Mujer<br>
+        <br>
+        <input type="button" value="Enviar">
+        <input type="submit">
+        <br>
+        <br>
+
+        <select name="" id="">
+            <option value="Mexico">Mexico</option>
+            <option value="United States">United States</option>
+        </select>
+        <br>
+        <br>
+        <input type="color" name="" id="">
+        <br><br>
+        <input type="range">
+
+    </form>
+    </center> 
+<BR></BR>
+    <HR><center><h2>ESTRUCTURA</h2></center></HR>
+    <header>
+        <div>
+            <img src="https://tecnoautos.com/wp-content/uploads/2015/01/imagenes-bacanas-para-whatsapp.jpg" alt="Logotipo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="">Inicio</a></li>
+                <li><a href="">Categoria A</a></li>
+                <li><a href="">Categoria B</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="wrapper">
+        <section class="main">
+            <article>
+                <h2>Titulo de nuestra pagina</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis alias fugit suscipit, ipsum distinctio maiores ipsa dignissimos iure! Delectus qui, ducimus tempore aperiam fuga modi temporibus nostrum provident laboriosam molestias?</p>
+            </article>
+        </section>
+        <aside>
+            <h3>Sidebar</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, ab maiores deleniti commodi, ipsum minus harum, iste adipisci unde voluptatum itaque earum pariatur cum quisquam? Expedita minima facilis aperiam repudiandae?</p>
+        </aside>
+    </section>
+
+    <footer>
+        <p> <var> Julian Velasco </var> </p>
+    </footer>
+</body>
+</html>
